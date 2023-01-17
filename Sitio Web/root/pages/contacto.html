@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="logodecoracion">
+        <a class="nav__link" href="../index.html"
+          ><img src="../images/logoipsum.svg" alt="logoipsum"
+        /></a>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a class="nav__link" href="../pages/novedades.html">Novedades</a>
+          </li>
+          <li><a class="nav__link" href="../pages/hombres.html">Hombres</a></li>
+          <li><a class="nav__link" href="../pages/ofertas.html">Ofertas</a></li>
+          <li>
+            <a class="nav__link" href="../pages/contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <h1>Contacto</h1>
+    <form>
+      <fieldset>
+        <legend>Contactenos</legend>
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" />
+        <div>
+          <label for="email">E-mail:</label>
+          <input type="text" name="email" id="email" />
+        </div>
+        <div>Hombre</div>
+        <input type="radio" name="sexo" value="hombre" />
+        <div>Mujer</div>
+        <input type="radio" name="sexo" value="mujer" />
+        <div>
+          <label>Consulta sobre:</label>
+          <select name="consulta" id="consulta">
+            <option value="productos">Productos</option>
+            <option value="envios">Envios</option>
+            <option value="devoluciones">Devoluciones</option>
+          </select>
+        </div>
+        <div>
+          <label for="mensaje">Mensaje:</label>
+          <br />
+          <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+          <input type="submit" value="Enviar" />
+          <input type="reset" value="Borrar" />
+        </div>
+      </fieldset>
+    </form>
+    <footer>
+      <img src="../images/logoipsum.svg" alt="logoipsum" />
+      <div class="logos">
+        <img src="../images/instagram.svg" alt="ig-logo" />
+        <img src="../images/twitter.svg" alt="tw-logo" />
+        <img src="../images/youtube.svg" alt="yt-logo" />
+        <img src="../images/facebook.svg" alt="fb-logo" />
+      </div>
+    </footer>
+  </body>
+</html>
